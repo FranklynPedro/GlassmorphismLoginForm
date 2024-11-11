@@ -63,7 +63,7 @@ No server setup is required, as this is a client-side application.
 3. If either field is empty, an error message will appear asking the user to enter both fields.
 
 ## 🌐 Live Demo
-You can view the live version of the Glassmorphism Login Form [here](https://your-link-to-the-live-demo.com).
+You can view the live version of the Glassmorphism Login Form [here](https://franklynpedro.github.io/GlassmorphismLoginForm/).
 
 ## 🤝 Contributing
 If you'd like to contribute to this project, please follow these steps:
