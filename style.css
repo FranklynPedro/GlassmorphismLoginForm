@@ -1,0 +1,123 @@
+/* Reset and basic styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Body styling */
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(145deg, #3a7bd5, #3a6073); /* Gradient background */
+    min-height: 100vh;
+    color: #ffffff; /* White text color for contrast */
+}
+
+/* Header styling */
+.header {
+    text-align: center; /* Center-aligning text */
+    padding: 40px 20px;
+}
+
+/* Styling for the main heading */
+.header h1 {
+    font-size: 36px; /* Large font size for heading */
+    margin-bottom: 10px;
+}
+
+/* Styling for the subtitle */
+.header p {
+    font-size: 18px;
+    color: #d3d3d3; /* Lighter color for the subtitle */
+}
+
+/* Main container to center the login form */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+}
+
+/* Glassmorphism effect for the login form */
+.login-form {
+    width: 100%;
+    max-width: 400px; /* Restricting form width */
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.15); /* Semi-transparent background */
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Shadow for depth */
+    backdrop-filter: blur(10px); /* Blurring the background */
+    border: 1px solid rgba(255, 255, 255, 0.2); /* Light border */
+    color: #ffffff;
+    text-align: center; /* Center-align form content */
+}
+
+/* Form title styling */
+.login-form h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #ffffff;
+}
+
+/* Label styling for form fields */
+.login-form label {
+    display: block;
+    margin-bottom: 8px;
+    text-align: left;
+    font-size: 14px;
+    color: #e0e0e0; /* Light color for labels */
+}
+
+/* Input fields styling */
+.login-form input {
+    width: 100%; /* Full width inputs */
+    padding: 10px;
+    margin-bottom: 15px; /* Space between inputs */
+    border: none;
+    border-radius: 8px; /* Rounded corners */
+    outline: none; /* Remove default outline */
+    font-size: 16px;
+    color: #333333; /* Dark text for input fields */
+    background: rgba(255, 255, 255, 0.6); /* Semi-transparent background */
+}
+
+/* Submit button styling */
+.login-form button {
+    width: 100%; /* Full width button */
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background: #4f9ad1; /* Blue background */
+    color: #ffffff;
+    font-size: 16px;
+    cursor: pointer; /* Pointer on hover */
+    transition: background 0.3s ease;
+}
+
+/* Button hover effect */
+.login-form button:hover {
+    background: #3a7bd5; /* Darker blue on hover */
+}
+
+/* Sign-up link styling */
+.signup-link {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #d3d3d3;
+}
+
+/* Styling for the sign-up link */
+.signup-link a {
+    color: #4f9ad1; /* Blue color for the link */
+    text-decoration: none;
+}
+
+/* Hover effect for the sign-up link */
+.signup-link a:hover {
+    color: #3a7bd5; /* Darker blue on hover */
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Character encoding for the document -->
+    <meta charset="UTF-8">
+    <!-- Ensures the page is properly scaled on different devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Title of the page -->
+    <title>Login</title>
+    <!-- Linking to the external CSS stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header section with welcome message -->
+    <header class="header">
+        <h1>Welcome Back!</h1>
+        <p>Login to your account</p>
+    </header>
+
+    <!-- Main container to center the login form -->
+    <div class="container">
+        <div class="login-form">
+            <!-- Login form heading -->
+            <h2>Log In</h2>
+            <!-- Login form starts -->
+            <form id="loginForm">
+                <!-- Username label and input field -->
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" required>
+
+                <!-- Password label and input field -->
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required>
+
+                <!-- Submit button for the form -->
+                <button type="submit">Log In</button>
+            </form>
+
+            <!-- Link to the sign-up page -->
+            <p class="signup-link">Don’t have an account? <a href="#">Sign up</a></p>
+        </div>
+    </div>
+
+    <!-- Linking to the external JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>
